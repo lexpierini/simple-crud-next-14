@@ -1,4 +1,4 @@
-import { Box, Container, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
       zIndex={1301}
     >
       <Typography variant="body2" align="center" mr={2}>
-        © Alex Pierini - 02/2024
+        © Alex Pierini - 03/2024
       </Typography>
       <Image
         src="/images/Logo_white_72dpi.png"
