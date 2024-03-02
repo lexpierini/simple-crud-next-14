@@ -16,7 +16,7 @@ export default function Providers(props: ProvidersProps) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools initialIsOpen={false} />
+      {/* <ReactQueryDevtools initialIsOpen={false} /> */}
       <AppRouterCacheProvider>
         <ThemeProvider theme={theme}>
           {props.children}
